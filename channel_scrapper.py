@@ -3,7 +3,7 @@ from urllib.request import urlopen, Request
 
 # channel search query
 url = 'https://www.youtube.com/results?search_query=[keyword]&sp=EgIQAg%253D%253D'
-keyword = "***REMOVED***"
+keyword = "enter_your_keyword_you_want_to_search_for"
 url = url.replace('[keyword]', keyword)
 useragent = 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0'
 
