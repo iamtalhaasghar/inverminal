@@ -4,7 +4,7 @@ from setuptools import setup
 
 options = dict(
     name="inverminal",
-    version="1.0.2",
+    version="1.0.3",
     description="Use Invidious on Terminal to watch Youtube Videos or play just audio in background.",
     keywords=["video", "music", "audio", "youtube", "stream", "download", "inverminal"],
     author="talha_programmer",

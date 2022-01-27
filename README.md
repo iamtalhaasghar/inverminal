@@ -2,7 +2,7 @@ Installation
 ------------
 1. Install **_pipx_** using `pip install pipx`
 2. Install `inverminal` using `pipx install git+https://github.com/iamtalhaasghar/inverminal.git`
-3. Run using `inv <your query goes here>` (example `inv nocopyright sound`) 
+3. Run using `inv`. That's it! 
 
 How to Update
 -------
