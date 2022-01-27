@@ -11,7 +11,7 @@ options = dict(
     author_email="talhaasghar.contact@simplelogin.fr",
     url="https://github.com/iamtalhaasghar/inverminal",
     download_url="https://github.com/iamtalhaasghar/inverminal/releases",
-    entry_points={'console_scripts': ['inv = main.run']},
+    entry_points={'console_scripts': ['inv = inverminal.main.run']},
     install_requires= open("requirements.txt").readlines(),
     long_description=open("README.md").read()
 )
