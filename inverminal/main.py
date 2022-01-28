@@ -20,7 +20,7 @@ def run():
             url = info_dict['formats'][0]['url']
             print('Playing', result['title'])
             with open(os.devnull, "w") as devnull:
-                subprocess.run(['vlc', url, '--meta-title=%s' % result['title']], shell=False, stderr=devnull)
+                subprocess.run(['vlc', url, '--play-and-exit', '--meta-title=%s' % result['title']], shell=False, stderr=devnull)
             #os.system('/usr/bin/vlc "%s" --meta-title="%s"' % (url, result['title']))
         except Exception as ex:
             print(ex)
